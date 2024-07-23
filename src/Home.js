@@ -59,10 +59,14 @@ export default function Home(props) {
             width: deviceWidth - 20,
           }}>
           <Icon name="menu" size={46} color="white" />
+
+
           {/* <Image
-            source={require('../assets/images/user.jpg')}
+            source={require('../assets/images')}
             style={{height: 46, width: 46, borderRadius: 50}}
           /> */}
+
+          
         </View>
 
         <View style={{paddingHorizontal: 20, marginTop: 100}}>

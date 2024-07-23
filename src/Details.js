@@ -24,7 +24,7 @@ export default function Details(props) {
         justifyContent: 'space-between',
         alignItems: 'center',
       }}>
-      <Text style={{color: 'gray', fontSize: 22}}>{title}</Text>
+      <Text style={{color: 'white', fontSize: 22}}>{title}</Text>
       <Text style={{color: 'white', fontSize: 22}}>{value}</Text>
     </View>
   );
@@ -54,7 +54,7 @@ export default function Details(props) {
 
           
           {/* <Image
-            // source={require('../assets/images/user.jpg')}
+            // source={require('../assets/images')}
             // source={require('../assets/icon.png')}
             style={{height: 46, width: 46, borderRadius: 50}}
           /> */}
